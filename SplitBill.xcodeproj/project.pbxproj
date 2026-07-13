@@ -29,20 +29,28 @@
 		52094E223004EB6300D76CEF /* SplitBillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitBillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		52D429103005093900D6B038 /* Exceptions for "SplitBill" folder in "SplitBill" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 52094E0A3004EB6200D76CEF /* SplitBill */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		52094E0D3004EB6200D76CEF /* SplitBill */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52D429103005093900D6B038 /* Exceptions for "SplitBill" folder in "SplitBill" target */,
+			);
 			path = SplitBill;
 			sourceTree = "<group>";
 		};
 		52094E1B3004EB6300D76CEF /* SplitBillTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SplitBillTests;
-			sourceTree = "<group>";
-		};
-		52094E253004EB6300D76CEF /* SplitBillUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SplitBillUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -77,7 +85,6 @@
 			children = (
 				52094E0D3004EB6200D76CEF /* SplitBill */,
 				52094E1B3004EB6300D76CEF /* SplitBillTests */,
-				52094E253004EB6300D76CEF /* SplitBillUITests */,
 				52094E0C3004EB6200D76CEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +159,6 @@
 			);
 			dependencies = (
 				52094E243004EB6300D76CEF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				52094E253004EB6300D76CEF /* SplitBillUITests */,
 			);
 			name = SplitBillUITests;
 			packageProductDependencies = (
@@ -398,6 +402,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SplitBill/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,6 +447,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SplitBill/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -481,7 +487,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8CDQLXW345;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gullcavdar.SplitBillTests;
@@ -507,7 +513,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8CDQLXW345;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gullcavdar.SplitBillTests;
@@ -532,7 +538,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8CDQLXW345;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gullcavdar.SplitBillUITests;
@@ -557,7 +563,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8CDQLXW345;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gullcavdar.SplitBillUITests;
