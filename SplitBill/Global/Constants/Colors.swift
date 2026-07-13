@@ -14,5 +14,7 @@ struct Colors {
     static let softGray = Color(hex: 0xC7C7CC)
     static let lightGray = Color(hex: 0xF2F2F7)
     static let bgColor = Color(hex: 0xF4F4F9)
+    static let green = Color(hex: 0x2DD36F)
+    static let lightBlue = Color(hex: 0x7ACAF2)
 
 }

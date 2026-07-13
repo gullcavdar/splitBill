@@ -127,7 +127,7 @@ struct ContentView: View {
                             .tracking(2.0)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
-                            .background(Colors.blue)
+                            .background(Colors.green)
                             .cornerRadius(16)
                     }
                     .padding(.top, 8)
@@ -172,8 +172,9 @@ struct ContentView: View {
                     VStack {
                         Text("SPLİT BİLL")
                             .font(.custom(FontBook.PoppinsBold.rawValue, size: 22))
-                            .foregroundColor(Colors.navTitle)
+                            .foregroundColor(Colors.green)
                     }
+                    .kerning(1.2)
                 }
                 
                 ToolbarItemGroup(placement: .keyboard) {
