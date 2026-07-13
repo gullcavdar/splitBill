@@ -87,7 +87,6 @@ struct ContentView: View {
                     .shadow(color: Color.black.opacity(0.04), radius: 10, x: 0, y: 4)
                     
                     VStack(alignment: .leading, spacing: 16) {
-                        
                         HStack(spacing: 8) {
                             Image("person")
                                 .resizable()
@@ -164,6 +163,9 @@ struct ContentView: View {
                 .padding()
             }
             .background(Colors.bgColor.ignoresSafeArea())
+            .onTapGesture {
+                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+            }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {
@@ -172,6 +174,15 @@ struct ContentView: View {
                             .font(.custom(FontBook.PoppinsBold.rawValue, size: 22))
                             .foregroundColor(Colors.navTitle)
                     }
+                }
+                
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Bitti") {
+                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    }
+                    .font(.custom(FontBook.PoppinsMedium.rawValue, size: 16))
+                    .foregroundColor(Colors.blue)
                 }
             }
         }
