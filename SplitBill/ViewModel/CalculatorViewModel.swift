@@ -11,7 +11,7 @@ import Combine
 class CalculatorViewModel: ObservableObject {
     @Published var totalAmount: String = ""
     @Published var tipPercentage: Double = 15.0
-    @Published var personCount: String = "2"
+    @Published var personCount: String = ""
     
     @Published var resultPerPerson: Double = 0.0
     @Published var errorMessage: String? = nil

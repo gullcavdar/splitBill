@@ -33,7 +33,7 @@ struct ContentView: View {
                                 .frame(width: 28
                                        , height: 28)
                             
-                            TextField("Toplam Hesap", text: $viewModel.totalAmount)
+                            TextField("", text: $viewModel.totalAmount, prompt: Text("Toplam Hesap").foregroundColor(Colors.gray))
                                 .keyboardType(.decimalPad)
                                 .font(.custom(FontBook.PoppinsRegular.rawValue, size: 14))
                                 .foregroundColor(Colors.navTitle)
@@ -103,10 +103,10 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 32, height: 32)
                     
-                            TextField("Kişi Sayısı", text: $viewModel.personCount)
+                            TextField("", text: $viewModel.personCount, prompt: Text("Kişi Sayısı").foregroundColor(Colors.gray))
                                 .keyboardType(.numberPad)
                                 .font(.custom(FontBook.PoppinsMedium.rawValue, size: 14))
-                                .foregroundColor(Colors.gray)
+                                .foregroundColor(Colors.navTitle)
                         }
                         .padding(16)
                         .background(.white)
