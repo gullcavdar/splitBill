@@ -185,6 +185,7 @@ struct ContentView: View {
                     .foregroundColor(Colors.blue)
                 }
             }
+            .toolbarBackground(Color.white, for: .navigationBar)
         }
     }
 }
